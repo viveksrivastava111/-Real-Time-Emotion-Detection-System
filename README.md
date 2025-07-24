@@ -14,22 +14,23 @@ This project detects and classifies human emotions such as Happy, Sad, Angry, Su
 
 
 ### Tech Stack
-Language: Python 3.x <br>
-Libraries: OpenCV <br>
-           TensorFlow / PyTorch (choose based on your implementation) <br>
-           Keras<br>
-           NumPy <br>
-           dlib or face_recognition (optional) <br>
-Model: Pre-trained CNN on FER-2013 or custom-trained model
+##### Language: Python 3.x <br>
+##### Libraries: <br>
+OpenCV <br>
+TensorFlow / PyTorch (choose based on your implementation) <br>
+Keras<br>
+NumPy <br>
+dlib or face_recognition (optional) <br>
+#### Model: Pre-trained CNN on FER-2013 or custom-trained model
 
 ### Emotion Classes
 The system can detect the following emotions (depending on the dataset/model used):
 
-Happy 😊 <br>
-Sad 😢<br>
-Angry 😠<br>
-Surprised 😮<br>
-Neutral 😐<br>
-Fearful 😨<br>
-Disgusted 🤢<br>
+★ Happy 😊 <br>
+★ Sad 😢<br>
+★ Angry 😠<br>
+★ Surprised 😮<br>
+★ Neutral 😐<br>
+★ Fearful 😨<br>
+★ Disgusted 🤢<br>
 
