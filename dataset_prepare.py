@@ -4,8 +4,6 @@ from PIL import Image
 from tqdm import tqdm
 import os
 
-
-
 # convert string to integer
 def atoi(s):
     n = 0
