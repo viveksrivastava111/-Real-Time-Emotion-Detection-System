@@ -5,7 +5,6 @@ from tqdm import tqdm
 import os
 
 # convert string to integer
-
 def atoi(s):
     n = 0
     for i in s:
