@@ -11,6 +11,7 @@ def atoi(s):
         n = n*10 + ord(i) - ord("0")
     return n
 
+
 # making folders
 outer_names = ['test','train']
 inner_names = ['angry', 'disgusted', 'fearful', 'happy', 'sad', 'surprised', 'neutral']
