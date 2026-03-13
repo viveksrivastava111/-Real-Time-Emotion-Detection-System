@@ -4,21 +4,6 @@ from PIL import Image
 from tqdm import tqdm
 import os
 
-# to keep count of each category
-angry = 0
-disgusted = 0
-fearful = 0
-happy = 0
-sad = 0
-surprised = 0
-neutral = 0
-angry_test = 0
-disgusted_test = 0
-fearful_test = 0
-happy_test = 0
-sad_test = 0
-surprised_test = 0
-neutral_test = 0
 
 # convert string to integer
 def atoi(s):
