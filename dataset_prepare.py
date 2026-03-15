@@ -4,6 +4,10 @@ from PIL import Image
 from tqdm import tqdm
 import os
 
+# read the csv file line by line
+for i in tqdm(range(len(df))):
+    txt = df['pixels'][i]
+    words = txt.split()
 
 # convert string to integer
 def atoi(s):
